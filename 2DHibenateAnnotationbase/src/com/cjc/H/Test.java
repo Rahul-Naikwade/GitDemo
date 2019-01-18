@@ -7,6 +7,9 @@ public class Test {
 	
 	public static void main(String[] args) 
 	{	
+
+System.out.println("Git HUB");
+
 	SessionFactory sf=HibernateUtil.getSessionFactory();	
 	Session session=sf.openSession();
 	//Student s=new Student();
